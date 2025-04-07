@@ -57,8 +57,10 @@ export async function generateResponse(prompt, conversationHistory = []) {
                               prompt.toLowerCase().includes('procure') || 
                               prompt.toLowerCase().includes('busque') ||
                               prompt.toLowerCase().includes('google') ||
-                              prompt.toLowerCase().includes('pesquisa web');
-                              prompt.toLowerCase().includes('mande link');
+                              prompt.toLowerCase().includes('pesquisa web') ||
+                              prompt.toLowerCase().includes('mande link') ||
+                              prompt.toLowerCase().includes('procure web');
+                              
 
     let webSearchResults = [];
     if (isWebSearchRequest) {
