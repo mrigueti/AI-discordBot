@@ -18,8 +18,6 @@ This project is a Discord bot integrated with Google's **Gemma 3n E4B** AI model
 - Internet access for up-to-date information
 - Customizable command system
 - Conversation context management for natural, continuous dialogues
-- Integrated web search with clickable links
-- Advanced security settings
 - Robust error handling
 
 ### 🚀 Installation
@@ -64,7 +62,7 @@ GEMINI_API_KEY=your_gemini_api_key
 Run the bot with:
 
 ```bash
-npm start
+node src/index.js
 ```
 
 **Basic commands**:
@@ -81,21 +79,12 @@ npm start
 !bot explain how the Gemma 3n E4B model works
 ```
 
-### 🤖 Special Features
-
-The bot automatically detects web search requests using keywords like:
-
-- "search", "find", "look for"
-- "google", "web search"
-- "send link", "search web"
-
 ### 📋 Requirements
 
 - Node.js 16.x or higher
 - Internet connection
 - Discord account
 - Access to Gemini API
-- (Optional) Google Custom Search API for web search
 
 ### 🔧 Gemma 3n E4B Model Settings
 
@@ -106,7 +95,7 @@ The bot is optimized for the **Gemma 3n E4B** model with the following configura
 - **Top P**: 0.95
 - **Max Output Tokens**: 2048
 - **Safety Filters**: Configured to block inappropriate content
-- **Model**: `gemma-2-9b-it` (Gemma 3n E4B Instruction Tuned)
+- **Model**: `Gemma 3n E4B`
 
 ## ⚠️ Discord Permissions and Configuration
 
