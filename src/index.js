@@ -15,7 +15,6 @@ try {
   );
 } catch (error) {
   console.error("❌ Erro de configuração:", error.message);
-  console.log('💡 Execute "npm run test" para verificar sua configuração');
   process.exit(1);
 }
 
